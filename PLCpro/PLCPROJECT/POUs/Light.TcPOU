@@ -3,6 +3,7 @@
   <POU Name="Light" Id="{51c482b5-784f-436d-9476-aaf7d405233d}" SpecialFunc="None">
     <Declaration><![CDATA[PROGRAM Light
 VAR
+	Lamp : BOOL;
 END_VAR
 ]]></Declaration>
     <Implementation>
